@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Poligonos Regulares</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="contenedor-canvas">
+    <canvas id="canvas" width="300" height="300"></canvas>
+  </div>
+  
+  <form>
+    <label for="numLados">Numero de lados de su Poligono</label>
+    <input type="number" id="numLados" name="numLados" min="3" step="1" max="100" value="3" required /><br /><br />
+
+    <label for="tamLados">Tamaño de los lados de su Poligono</label>
+    <input type="number" id="tamLados" name="tamLados" min="1" step="1" max="10" value="1" required /><br /><br />
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

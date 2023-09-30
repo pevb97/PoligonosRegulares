@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#canvas{
+  border: 1px solid black;
+}
+
+#contenedor-canvas {
+  width: 100%; /* El contenedor del canvas ocupa todo el ancho disponible */
+  max-width: 800px; /* Establece un ancho máximo para el contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
